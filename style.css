@@ -1,0 +1,84 @@
+.Master-nav-bar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: green;
+border: 0px;
+margin: 0px;
+height: 50px;
+font-size: 20px;
+}
+.text {
+    color: white;
+    text-decoration: none;
+}
+
+.Nav-Bar > .Nav-Link-wrapper {
+    display: grid;
+    grid-template-columns: 10px;
+}
+.Nav-Bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-link{
+    margin : 10%;
+    color: black;
+}
+.nav-link > a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.Lunch-pack-wrapper {
+    font-size: larger;
+    height: 720px;
+    width: 360px;
+}
+
+.Button-text {
+    color: white;
+    text-decoration: none;
+}
+
+.info-section {
+    animation: colorChange 8000ms ease-in alternate infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: green;
+        color: white;
+    }
+    50% {
+        background-color: lightgreen;
+        color: grey;
+    }
+    60% {
+        background-color: white;
+        color: black;
+    }
+    100% {
+        background-color: green;
+        color: white;
+    }
+}
+.menu-button {
+    height: 60px;
+    width: 200px;
+    background-color: green;
+    transition: background-color 1s linear, width 1s linear, height 1s ease-in;
+}
+
+.menu-button:hover {
+   background-color: lightgoldenrodyellow;
+   height: 70px;
+   width: 220px;
+}
+
+.summary:hover{
+    background-color: green;
+    text-decoration: underline;
+}
